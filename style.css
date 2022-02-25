@@ -63,6 +63,26 @@ a {
     margin-left: 8px;
 }
 
+.color {
+    color: orangered;
+}
+
+section h3 {
+    margin-bottom: 8px;
+}
+
+section * {
+    text-align: center;
+}
+
+#cats img {
+    border-radius: 48px 16px;
+}
+
+#cats-again img {
+    
+}
+
 #landscape {
     background-image: url(images/landscape.jpg);
     background-size: cover;
