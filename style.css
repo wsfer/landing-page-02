@@ -13,8 +13,10 @@ img, section {
     margin: 50px;
 }
 
-main div {
+#cats, #cats-again, #signup {
     display: flex;
+    font-size: 2rem;
+    align-items: center;
 }
 
 .nav_bar {
@@ -40,4 +42,21 @@ main div {
 
 .links span {
     margin: 8px;
+}
+
+#landscape {
+    background-image: url(images/landscape.jpg);
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#landscape section, #landscape section h3 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 2rem;
+    color: #222222;
+    margin-top: 30px;;
 }
