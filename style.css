@@ -13,6 +13,10 @@ img, section {
     margin: 50px;
 }
 
+a {
+    color: #dddd99;
+}
+
 #cats, #cats_again {
     display: flex;
     font-size: 2rem;
@@ -25,6 +29,8 @@ img, section {
     display: flex;
     padding: 16px;
     justify-content: space-between;
+    align-items: center;
+    background-color: #121212;
 }
 
 .logo {
@@ -36,12 +42,25 @@ img, section {
 }
 
 .links {
+    background-color: inherit;
     font-size: 1rem;
     padding: 8px;
+    font-weight: bold;
 }
 
 .links span {
     margin: 8px;
+}
+
+.links button {
+    background-image: linear-gradient(red, yellow);
+    border-color: #121212;
+    border-radius: 8px;
+    padding: 8px;
+    color: #121212;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-left: 8px;
 }
 
 #landscape {
