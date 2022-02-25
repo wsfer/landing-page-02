@@ -144,11 +144,46 @@ section * {
     background-color: inherit;
 }
 
-#signup {
+#squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw 0;
+}
+
+#squares h3 {
+    text-align: center;
+    margin-bottom: 5vw;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.squares_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.square_img {
+    min-width: 150px;
+    min-height: 150px;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px;
+}
+
+.square h3 {
+    background-color: inherit;
+    color: #222222;
+}
+
+.square_img img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
 }
 
 footer {
