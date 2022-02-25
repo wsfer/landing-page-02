@@ -13,7 +13,7 @@ img, section {
     margin: 50px;
 }
 
-#cats, #cats-again, #signup {
+#cats, #cats_again {
     display: flex;
     font-size: 2rem;
     align-items: center;
@@ -59,4 +59,10 @@ img, section {
     font-size: 2rem;
     color: #222222;
     margin-top: 30px;;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
