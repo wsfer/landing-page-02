@@ -4,4 +4,40 @@
     padding: 0;
     box-sizing: border-box;
     color: #dddd99;
+    text-decoration: none ;
+}
+
+img, section {
+    width: 40%;
+    height: auto;
+    margin: 50px;
+}
+
+main div {
+    display: flex;
+}
+
+.nav_bar {
+    position: sticky;
+    top: 0;
+    display: flex;
+    padding: 16px;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    background-image: linear-gradient(red, yellow);
+    background-clip: text;
+    color: transparent;
+}
+
+.links {
+    font-size: 1rem;
+    padding: 8px;
+}
+
+.links span {
+    margin: 8px;
 }
