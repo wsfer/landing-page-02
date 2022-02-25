@@ -80,10 +80,6 @@ section * {
     border-radius: 48px 16px;
 }
 
-#cats-again img {
-
-}
-
 #landscape {
     background-image: url(images/landscape.jpg);
     background-size: cover;
@@ -114,6 +110,38 @@ section * {
     margin-top: 30px;
     margin-left: 10vw;
     font-weight: bold;
+}
+
+#cats_again {
+    background-color: #121212;
+}
+
+#cats_again img {
+    border-radius: 32px 16px 48px;
+}
+
+#cats_again section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: inherit;
+}
+
+#cats_again section button {
+    background-image: linear-gradient(red, yellow);
+    border-color: #121212;
+    border-radius: 8px;
+    padding: 8px;
+    color: #121212;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-left: 50%;
+    margin-right: 10%;
+}
+
+#cats_again section h3, #cats_again section p {
+    background-color: inherit;
 }
 
 #signup {
